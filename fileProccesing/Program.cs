@@ -28,7 +28,7 @@ namespace fileProccesing
                 Console.WriteLine($"last access time: \n {file1.LastAccessTime} \n {file2.LastAccessTime}");
                 Console.WriteLine($"last write time: \n {file1.LastWriteTime} \n {file2.LastWriteTime}");
                 Console.WriteLine($"Extension: \n {file1.Extension} \n {file2.Extension}");
-                Console.WriteLine($"Exist \n {file1.Exists} \n {file2.Exists}");
+                Console.WriteLine($"Exist: \n {file1.Exists} \n {file2.Exists}");
 
             }
 
